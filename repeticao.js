@@ -95,6 +95,7 @@ while ( escolha1 == "S"){
         alert ( acumuladora + " alunos aprovados.");
 }
 */
+
 /* atividade 7 
 var nota = parseInt (prompt("insira uma nota: "))
 var nota2 = parseInt (prompt("insira uma nota: "))
@@ -125,6 +126,7 @@ while (nota6 < 0||nota6 > 10) {
 var media = ( nota + nota2 + nota3 + nota4 + nota5 + nota6) / 6
 alert ("sua média final foi: " + media)
 */
+
 /* atividade 8
 var valor = parseFloat (prompt(" um valor aqui"))
 var n = 1
@@ -135,14 +137,18 @@ while(n <= valor){
     n++
 }
 */
-/* incompleta 9
+
+/*
 var number = 101
 var number2 = 111
 
-while( number <= number2)
-document.write(numero + "<br>")
+while( number <= number2){
+document.write(number + "<br>")
+number++
+}
 */
-/* atividade 10
+
+/*
 var inicial = 0
 var numero = parseInt (prompt( " digite um numero:"))
 
@@ -157,22 +163,24 @@ while(final < 10){
 }
 }
 */
-var n1 = 0
-var n2 = 0
+/* atividade 11
+var dentro = 0
+var fora = 0
 var inicio = 0
 
 while (inicio< 10){
 var valor = parseInt(prompt("digite os valores: "))
 
-if (valor > 24 || valor < 42) {
-    n1++
+if (valor > 24 && valor < 42) {
+    dentro++
 }
 
 else {
-    n2++
+    fora++
 }
 
 inicio++
 
 }
-alert ("existem " + n1 + " e " + n2)
+alert ("existem os valores " + dentro + " dentro e " + fora + " fora ")
+*/
